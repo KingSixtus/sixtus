@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background: #000;
+    color: #fff;
+}
+.navbar-brand{
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+}
+.navbar-brand:hover{
+    color: white;
+}
+span{
+    color: rgb(236, 83, 83);
+    cursor: pointer;
+}
+.nav-item{
+    padding-right: 50px;
+}
+.nav-link{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.nav-link:hover{
+    color: rgb(236, 83, 83);
+}
+.d-flex{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(236, 83, 83);
+    font-size: 10px;
+}
+/* =====================main============== */
+.main{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/young-fitness-man-studio.jpg)no-repeat;
+    background-size: cover;
+    height: 110vh;
+}
+.main h1{
+    font-size: 5rem;
+    font-weight: 800;
+}
+.btn1{
+    height: 55px;
+    width: 140px;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg , #f5634b 0% , #fe9418 100%);
+    transition: 1s;
+}
+.btn1:hover{
+    background: linear-gradient(90deg , #fe9418 0% , #f5634b 100%);
+    transition: all 1s;
+}
+/* ==========================details=================== */
+
+.details{
+    margin-top: -50px;
+}
+.details h5{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.details a{
+    text-decoration: none;
+    color: rgb(236, 83, 83);
+}
+.back:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.back{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.8s;
+}
+.back::before{
+    content: "";
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(90deg , #fe9418 0% , #f5634b 100%);;
+    z-index: -1;
+    transition: all 0.8s;
+}
+.back:hover::before{
+    height: 100%;
+}
+.back:hover a{
+    color: #fff;
+    cursor: pointer;
+}
+/* ==========================more==================================== */
+
+.more h2{
+    font-weight: 800;
+}
+.more p{
+    font-weight: lighter;
+}
+.p{
+    font-size: 1.1rem;
+}
+/* ======================================discover====================== */
+.discover{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/water.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.discover h1{
+    font-weight: 800;
+    font-size: 2.8rem;
+}
+/* ======================services================== */
+
+.services h1{
+    font-weight: 800;
+    font-size: 2.8rem;
+}
+.services h5{
+    font-weight: 700;
+}
+.fas{
+    font-size: 2.5rem;
+}
+.back:hover .fas{
+    color: #fff;
+}
+
+/* ======================================courses====================== */
+
+.courses h1{
+    font-weight: 800;
+    font-size: 2.8rem;
+}
+.courses .card{
+    border: none;
+}
+p{
+    font-weight: lighter;
+}
+.btn2{
+    height: 55px;
+    width: 80%;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg , #f5634b 0% , #fe9418 100%);
+    transition: 1s;
+}
+.btn2:hover{
+    background: linear-gradient(90deg , #fe9418 0% , #f5634b 100%);
+    transition: all 1s;
+}
+
+/* =============================footer====================== */
+
+.footer{
+    background-color: rgb(23, 8, 44);
+    color: #fff;
+}
+.footer h4, h5{
+    font-weight: 900;
+}
+.footer p{
+    margin: 0;
+    color: teal;
+}
+.link{
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.link:hover{
+    color: rgb(236, 83, 83);
+    padding-left: 5PX;
+    transition: ALL 0.5s;
+}
+.fa-angle-double-right{
+    font-size: 18px;
+    color: teal;
+}
+.social{
+    color: #fff;
+    font-size: 24px;
+    transition: all 0.4s;
+}
+.social:hover{
+    color: red;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.footer .card{
+    background: #000;
+    border-radius: 0;
+}
